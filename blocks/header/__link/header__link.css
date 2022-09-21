@@ -1,0 +1,17 @@
+.header__link {
+    padding-right: 36px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__link:last-child {
+    padding-right: 0;
+}
+
+.header__link:hover {
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
