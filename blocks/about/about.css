@@ -1,6 +1,7 @@
-.intro {
+.about {
     max-width: 1200px;
-    margin: 80px auto;
+    margin: 80px auto 0;
     display: flex;
     justify-content: space-between;
+    gap: 126px;
 }

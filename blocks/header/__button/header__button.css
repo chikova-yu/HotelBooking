@@ -1,4 +1,4 @@
-.button {
+.header__button {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -6,9 +6,11 @@
     background-color: #0E1734;
     padding: 14px 16px;
     color: #fff;
+    border-radius: 4px;
+    margin: 0;
 }
 
-.button:hover {
+.header__button:hover {
     opacity: 0.8;
     transition: 0.2s ease-in-out;
     cursor: pointer;

@@ -1,0 +1,10 @@
+.about__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848FAC;
+    max-width: 584px;
+    margin: 28px 0 17px;
+}

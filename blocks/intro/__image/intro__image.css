@@ -1,0 +1,11 @@
+.intro__image {
+    width: 180px;
+    height: 588px;
+    border-radius: 4px;
+    padding-right: 18px;
+    margin-top: 80px;
+}
+
+.intro__image:last-child {
+    padding-right: 0;
+}
