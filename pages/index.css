@@ -21,3 +21,9 @@
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__subtitle/about__subtitle.css);
 @import url(../blocks/about/__button/about__button.css);
+@import url(../blocks/benefit/benefit.css);
+@import url(../blocks/benefit/__container/benefit__container.css);
+@import url(../blocks/benefit/__image/benefit__image.css);
+@import url(../blocks/benefit/__title/benefit__title.css);
+@import url(../blocks/benefit/__subtitle/benefit__subtitle.css);
+@import url(../blocks/benefit/__max-container/benefit__max-container.css);

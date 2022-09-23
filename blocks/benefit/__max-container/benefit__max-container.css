@@ -1,0 +1,11 @@
+.benefit__max-container {
+    max-width: 1094px;
+    display: flex;
+    justify-content: space-between;
+    gap: 126px;
+    margin-bottom: 36px;
+}
+
+.benefit__max-container:last-of-type {
+    margin-bottom: 0;
+}
