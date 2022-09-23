@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Юлия Чикова">
+    <meta name="author" content="Татьяна Свитко">
     <link rel="stylesheet" href="./pages/index.css">
     <title>HotelBooking</title>
 </head>
@@ -11,7 +13,7 @@
 <body>
     <div class="page">
         <header class="header">
-            <p class="logo">HotelBooking</p>
+            <p class="logo logo_place_header">HotelBooking</p>
             <nav>
                 <ul class="header__links">
                     <li><a class="header__link" href="#" target="_self">Дома</a></li>
@@ -19,15 +21,19 @@
                     <li><a class="header__link" href="#" target="_self">Контакты</a></li>
                 </ul>
             </nav>
-            <button class="header__button">Бронировать</button>
+            <form action="#" target="_self">
+                <button class="button button_place_header">Бронировать</button>
+            </form>
         </header>
 
-        <main class="content">
+        <main>
             <section class="intro">
                 <div class="intro__container">
-                    <h1 class="intro__title">Аренда загородного дома для отдыха</h1>
-                    <p class="intro__subtitle">Самые выгодные предложения по аренде коттеджей и загородных домов в Москве и области</p>
-                    <button class="intro__button">Бронирование</button>
+                    <h1 class="title title_place_intro">Аренда загородного дома для отдыха</h1>
+                    <p class="subtitle subtitle_place_intro">Самые выгодные предложения по аренде коттеджей и загородных домов в Москве и области</p>
+                    <form action="#" target="_self">
+                        <button class="button">Бронирование</button>
+                    </form>
                 </div>
                 <div class="intro__images">
                     <img class="intro__image" src="./images/house1.png" alt="Левая часть дома">
@@ -39,34 +45,55 @@
             <section class="about">
                 <img class="about__image" src="./images/dog.png" alt="Собака возле дома">
                 <div class="about__container">
-                    <h2 class="about__title">Уютный двухэтажный дом в норвежском стиле</h2>
-                    <p class="about__subtitle">Просторные коттеджи с видом на лес полностью укомплектованы: кондиционер, холодильник, посудомоечная машина, газовая плита, духовка, микроволновая печь, чайник, набор посуды и столовых приборов. В каждом коттедже: стиральная машина, гладильная станция, сушилка для белья, фен. </p>
-                    <button class="about__button">Подробнее</button>
+                    <h2 class="title title_place_about">Уютный двухэтажный дом в норвежском стиле</h2>
+                    <p class="subtitle subtitle_place_about">Просторные коттеджи с видом на лес полностью укомплектованы: кондиционер, холодильник, посудомоечная машина, газовая плита, духовка, микроволновая печь, чайник, набор посуды и столовых приборов. В каждом коттедже: стиральная машина, гладильная станция, сушилка для белья, фен. </p>
+                    <form action="#" target="_self">
+                        <button class="button">Подробнее</button>
+                    </form>
                 </div>
             </section>
 
             <section class="benefit">
                 <div class="benefit__max-container">
                     <div class="benefit__container">
-                        <h2 class="benefit__title">Активности</h2>
-                        <p class="benefit__subtitle">К вашим услугам наши прекрасные повора, которые приготовят вкусную еду по составленную для вас персональному меню. Также вы сможете воспользоваться СПА, тренажерным залом и прочими услугами, доступными на нашей территории.</p>
+                        <h2 class="title">Активности</h2>
+                        <p class="subtitle subtitle_place_benefit">К вашим услугам наши прекрасные повора, которые приготовят вкусную еду по составленную для вас персональному меню. Также вы сможете воспользоваться СПА, тренажерным залом и прочими услугами, доступными на нашей территории.</p>
                     </div>
                     <img class="benefit__image" src="./images/party.png" alt="Вечеринка">
                 </div>
                 <div class="benefit__max-container">
                     <img class="benefit__image" src="./images/food.png" alt="Еда">
                     <div class="benefit__container">
-                        <h2 class="benefit__title">100% Натуральные продукты</h2>
-                        <p class="benefit__subtitle">При приготовлении наших блюд мы используем только свежие, полезные, натуральные продукты.</p>
+                        <h2 class="title">100% Натуральные продукты</h2>
+                        <p class="subtitle subtitle_place_benefit">При приготовлении наших блюд мы используем только свежие, полезные, натуральные продукты.</p>
                     </div>
                 </div>
             </section>
 
             <section class="collage">
-                <h2 class="collage__title">Наши интерьеры</h2>
-                
+                <h2 class="title title_place_center">Наши интерьеры</h2>
+                <ul class="collage__container">
+                    <li class="collage__main-image">
+                        <img class="collage__photo" src="./images/interior1.png" alt="Зеленые стулья">
+                        <div class="slide slide_place_collage">
+                            <span class="slide__dot"></span>
+                            <span class="slide__dot slide__dot_active"></span>
+                            <span class="slide__dot"></span>
+                            <span class="slide__dot"></span>
+                        </div>
+                    </li>
+                    <li class="collage__image">
+                        <img class="collage__photo" src="./images/interior2.png" alt="Бежевый диван">
+                    </li>
+                    <li class="collage__image">
+                        <img class="collage__photo" src="./images/interior3.png" alt="Кухня">
+                    </li>
+                    <li class="collage__image">
+                        <img class="collage__photo" src="./images/interior4.png" alt="Бирюзовая стена">
+                    </li>
+                </ul>
+                <div class="collage__dot"></div>
             </section>
-
 
         </main>
         

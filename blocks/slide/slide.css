@@ -1,0 +1,7 @@
+.slide {
+    max-width: 71px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+}

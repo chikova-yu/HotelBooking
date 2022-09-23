@@ -1,0 +1,9 @@
+.collage__container {
+    margin: 38px auto 0;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 3px;
+}

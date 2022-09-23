@@ -1,0 +1,9 @@
+.collage__image {
+    max-height: 193px;
+}
+
+.collage__image:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
