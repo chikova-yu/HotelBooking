@@ -3,7 +3,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/button/button.css);
@@ -45,3 +44,19 @@
 @import url(../blocks/title/_place/title_place_reserv.css);
 @import url(../blocks/reserv/__link/reserv__link.css);
 @import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__image/reviews__image.css);
+@import url(../blocks/subtitle/_place/subtitle_place_reviews.css);
+@import url(../blocks/reviews/__name/reviews__name.css);
+@import url(../blocks/slide/__dot/_place/slide__dot_place_reviews.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/subtitle/_place/subtitle_place_footer.css);
+@import url(../blocks/footer/__icons/footer__icons.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__item-link/footer__item-link.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-text/footer__column-text.css);
