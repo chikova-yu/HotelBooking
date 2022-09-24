@@ -1,0 +1,5 @@
+.reserv__item {
+    min-height: 715px;
+    display: flex;
+    flex-direction: column;
+}
