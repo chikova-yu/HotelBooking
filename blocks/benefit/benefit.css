@@ -2,3 +2,9 @@
     margin: 80px auto;
     max-width: 1200px;
 }
+
+@media screen and (max-width: 1219px) {
+    .benefit {
+        max-width: 90%;
+    }
+}

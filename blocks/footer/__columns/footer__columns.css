@@ -5,3 +5,15 @@
     max-width: 1200px;
     padding: 116px 0 120px;
 }
+
+@media screen and (max-width: 1219px) {
+    .footer__columns {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer__columns {
+        flex-direction: column;
+    }
+}

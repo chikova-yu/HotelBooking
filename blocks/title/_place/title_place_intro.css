@@ -2,3 +2,16 @@
     font-size: 48px;
     max-width: 587px;
 }
+
+@media screen and (max-width: 1279px) {
+    .title_place_intro {
+        font-size: 40px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .title_place_intro {
+        text-align: center;
+    }
+}

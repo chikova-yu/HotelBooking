@@ -6,3 +6,9 @@
     color: #848FAC;
     margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .subtitle {
+        font-size: 16px;
+    }
+}

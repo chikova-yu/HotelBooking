@@ -1,3 +1,9 @@
 .title_place_about {
     max-width: 690px;
 }
+
+@media screen and (max-width: 1023px) {
+    .title_place_about {
+        text-align: center;
+    }
+}

@@ -3,3 +3,9 @@
     position: relative;
     max-height: 585px;
 }
+
+@media screen and (max-width: 1219px) {
+    .collage__main-image {
+        grid-column: 1/4;
+    }
+}

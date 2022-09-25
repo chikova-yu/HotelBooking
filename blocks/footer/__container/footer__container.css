@@ -3,3 +3,10 @@
     justify-content: space-between;
     min-width: 650px;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__container {
+        min-width: 230px;
+        flex-direction: column;
+    }
+}

@@ -2,3 +2,15 @@
     margin: 24px 0 59px;
     max-width: 485px;
 }
+
+@media screen and (max-width: 1279px) {
+    .subtitle_place_intro {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .subtitle_place_intro {
+        text-align: center;
+    }
+}

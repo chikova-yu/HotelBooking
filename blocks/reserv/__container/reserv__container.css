@@ -6,3 +6,16 @@
     padding: 0;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1279px) {
+    .reserv__container {
+        margin: 88px 15px 0;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .reserv__container {
+        flex-direction: column;
+    }
+}

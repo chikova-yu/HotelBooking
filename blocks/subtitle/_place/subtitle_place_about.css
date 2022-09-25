@@ -2,3 +2,11 @@
     max-width: 584px;
     margin: 28px 0 17px;
 }
+
+@media screen and (max-width: 1023px) {
+    .subtitle_place_about {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+}

@@ -7,3 +7,10 @@
     grid-template-rows: repeat(3, auto);
     gap: 3px;
 }
+
+@media screen and (max-width: 1219px) {
+    .collage__container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}

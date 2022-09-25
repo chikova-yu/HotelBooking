@@ -2,4 +2,12 @@
     min-height: 715px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    max-width: 385px;
+}
+
+@media screen and (max-width: 1279px) {
+    .reserv__item {
+        min-height: 690px;
+    }
 }

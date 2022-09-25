@@ -1,3 +1,9 @@
 .logo_place_footer {
     font-weight: 700;
 }
+
+@media screen and (max-width: 1023px) {
+    .footer__columns {
+        text-align: center;
+    }
+}
