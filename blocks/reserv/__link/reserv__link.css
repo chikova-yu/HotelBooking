@@ -14,7 +14,7 @@
     transition: 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1079px) {
     .reserv__link {
         padding-top: 25px;
     }

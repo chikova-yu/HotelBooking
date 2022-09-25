@@ -12,5 +12,6 @@
 @media screen and (max-width: 1023px) {
     .subtitle_place_intro {
         text-align: center;
+        margin: 24px 0;
     }
 }

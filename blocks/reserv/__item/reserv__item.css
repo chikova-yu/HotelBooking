@@ -2,12 +2,13 @@
     min-height: 715px;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    max-width: 385px;
+    justify-content: flex-start;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1079px) {
     .reserv__item {
-        min-height: 690px;
+        min-height: 670px;
+        align-items: center;
+        padding-top: 50px;
     }
 }

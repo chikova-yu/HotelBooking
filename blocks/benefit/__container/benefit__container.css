@@ -3,3 +3,9 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (max-width: 1023px) {
+    .benefit__container {
+        align-items: center;
+    }
+}

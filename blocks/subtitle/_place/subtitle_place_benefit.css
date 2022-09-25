@@ -2,3 +2,9 @@
     max-width: 584px;
     margin: 24px 0 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .benefit__max-container {
+        text-align: center;
+    }
+}

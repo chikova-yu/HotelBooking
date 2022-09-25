@@ -10,8 +10,9 @@
     }
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1024px) {
     .title_place_intro {
+        font-size: 48px;
         text-align: center;
     }
 }

@@ -14,8 +14,8 @@
 
 @media screen and (max-width: 1023px) {
     .about {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
-        gap: 50px;
+        gap: 0;
     }
 }
